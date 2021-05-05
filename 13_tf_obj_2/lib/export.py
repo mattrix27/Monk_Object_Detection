@@ -14,6 +14,11 @@ def main(_):
     with open('system_dict.json') as json_file:
         args = json.load(json_file) 
     
+    print("AHHHHHHHHHHHHH")
+    print(args["input_type"])
+    print(args["trained_checkpoint_dir"])
+    print(args["output_directory"])
+
     pipeline_config = pipeline_pb2.TrainEvalPipelineConfig()
     with tf.io.gfile.GFile(args["pipeline_config_path"], 'r') as f:
         text_format.Merge(f.read(), pipeline_config)
