@@ -1,13 +1,13 @@
 <annotation>
-	<folder>Images</folder>
+	<folder>raw_images_iso</folder>
 	<filename>bag15.jpg</filename>
-	<path>/home/mattrix/Monk_Object_Detection/example_notebooks/sample_dataset/oyster_bag/Images/bag15.jpg</path>
+	<path>/home/mattrix/Monk_Object_Detection/example_notebooks/sample_dataset/oyster_bag/raw_images_iso/bag15.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>450</width>
-		<height>223</height>
+		<width>418</width>
+		<height>228</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5</xmin>
-			<ymin>27</ymin>
-			<xmax>443</xmax>
-			<ymax>188</ymax>
+			<xmin>55</xmin>
+			<ymin>33</ymin>
+			<xmax>324</xmax>
+			<ymax>193</ymax>
 		</bndbox>
 	</object>
 </annotation>
